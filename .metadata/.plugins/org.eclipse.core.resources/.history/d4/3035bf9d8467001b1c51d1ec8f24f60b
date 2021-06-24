@@ -1,0 +1,22 @@
+package com.aggregator.runner;
+
+import java.util.ArrayList;
+
+public class CollectionPractice1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s ="hello";
+		System.out.println(s.intern());
+		String s1="hello";
+		System.out.println(s1.intern());
+		ArrayList ls = new ArrayList();
+		ls.add(5);
+		ls.add(s);
+		System.out.println(ls);
+		
+		
+	}
+
+}

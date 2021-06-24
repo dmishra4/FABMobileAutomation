@@ -1,0 +1,32 @@
+package com.aggregator.runner;
+
+import java.util.ArrayList;
+
+enum e 
+{a,e,i,o,u};
+
+public class CollectionPractice1 {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s ="hello";	
+		int vowel =0;
+		int consonent =0;
+		char ch[] = s.toCharArray();
+		for(int i=0;i<ch.length;i++) {
+			if(ch[i]=='a' || ch[i]=='e' || ch[i]=='i' ||ch[i]=='o' ||ch[i]=='u')
+				vowel++;
+			else
+				consonent++;
+			
+			System.out.println(" Vowel count is :: "+vowel +"consonent count is ::"+consonent);
+				
+		}
+		
+		
+	}
+
+}
